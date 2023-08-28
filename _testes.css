@@ -1,0 +1,112 @@
+/*  ------ estilos gerais */
+
+.estilizada {
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-weight: 100;
+    color: #FFB4B4;
+}
+
+body p, body a{
+    font-family: 'Lora', serif;
+}
+
+/* ------- header ---------- */
+
+header{
+    height: 55vh;
+}
+
+header p{
+    background-color: white;
+    padding: 15px;
+    color: #8f7feb;
+	text-shadow: 0 !important;
+    background-image: 0 !important;
+    width: 50%;
+    margin: 0 auto;
+
+    box-shadow: 
+        4px 4px 1px #FFB4B4,
+        8px 8px 1px #FFDEB4,
+        12px 12px 1px #FDF7C3;
+}
+
+/* --------- main ---------- */
+
+section{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+
+section .container-merchan{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container-merchan div{
+    width: 40%;
+}
+
+
+section .container-merchan p {
+    width: 60%;
+    padding: 60px;
+}
+
+section img{
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 
+    2px 2px 1px #FFB4B4,
+    4px 4px 1px #FFDEB4,
+    6px 6px 1px #FDF7C3;
+
+    transition: 2s;
+}
+
+section .container-merchan div img:hover{
+    box-shadow: 
+        6px 6px 1px #FFB4B4,
+        12px 12px 1px #FFDEB4,
+        18px 18px 1px #FDF7C3;
+
+        cursor: pointer;
+}
+
+/* ----- footer ------- */
+
+
+footer{
+    padding: 35px;
+    background-image: linear-gradient(45deg, #b4ccff, #FFB4B4) !important;
+}
+
+footer h2 {
+    text-align: center;
+    color: white !important;
+    margin-left: 4%;
+}
+
+footer ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px){
+    body{
+        display: none;
+    }
+}

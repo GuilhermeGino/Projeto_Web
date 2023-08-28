@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Contato</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav> 
+        <div id="conteudo">
+            <h1 class="estilizada">Contato</h1>
+            <p class="texto_centro">Faça seu pedido online aqui!</p>
+            <div class="container_contato">
+                <form>
+                    <br/>
+                    <label for="nome">Primeiro Nome:</label><br/>
+                    <input type="text" id="nome" name="nome" required><br/>
+                    <label for="sobrenome">Sobrenome:</label><br/>
+                    <input type="text" id="sobrenome" name="sobrenome" required><br/>
+                    <label for="email">Email:</label><br/>
+                    <input type="email" placeholder="sorveteria@dopovo.com" id="email" name="email" required><br/>
+                    <label for="telefone">Telefone:</label><br/>
+                    <input type="tel" placeholder="(xx) xxxxx-xxxx" id="telefone" name="telefone" required><br/>
+                    <label for="endereço">Endereço de entrega:</label><br/>
+                    <input type="text" id="endereço" name="endereço" required><br/>
+                    <label for="pedido">Anote aqui seu pedido:</label><br/>
+                    <input type="text" id="pedido" name="pedido" style="height: 120px;" required><br/>
+                    <br/>
+                    <button type="submit" onclick="executar();">Enviar</button>
+                </form>
+            </div>
+            <br/>
+            <br/>
+        </div>
+        <footer>
+            <h2 class="estilizada">Experimente nos contactar diretamente!</h2>
+            <ul>
+                <li><a href="" target="_blank"><img class="imagem-contato" src="assets/img/gmail.png" /></a></li>
+                <li><a href="" target="_blank"><img class="imagem-contato" src="assets/img/whatsapp.png" /></a></li>
+                <li><a href="" target="_blank"><img class="imagem-contato" src="assets/img/instagram.png" /></a></li>
+                <li><a href="" target="_blank"><img class="imagem-contato" src="assets/img/twitter.png" /></a></li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="assets/script.js"></script>
+    </body>
+</html>
